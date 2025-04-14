@@ -1,3 +1,11 @@
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 /* You can add global styles to this file, and also import other style files */
 body.dark-mode {
     background-color: #121212;
@@ -7,8 +15,4 @@ body.dark-mode {
   .navbar.dark-mode, .card.dark-mode {
     background-color: #1e1e1e;
     color: #f8f9fa;
-  } 
-
-
-@import "tailwindcss";
-  
+  }  
